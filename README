@@ -1,0 +1,8 @@
+Requires:
+	dnsmasq
+
+Execution:
+	./start
+
+Notes:
+	Remember to set the IP addresses in the start script before running it.

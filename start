@@ -1,0 +1,2 @@
+#!/bin/bash
+dnsmasq --dhcp-range=LAN,192.168.0.193,192.168.0.223,72h --enable-tftp --tftp-root=`dirname $0` --dhcp-boot=ipxe.pxe,192.168.0.100
